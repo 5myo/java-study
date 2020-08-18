@@ -1,0 +1,39 @@
+/*
+원칙 : 생성자는 객체 생성시 1개만 호출 ( Car()  or   Car(10,20)  or ....)
+this 객체 주소 
+
+아래 코드를 보시고 마음에 안드시는 부분이 있으면 이야기 .....
+*/
+class Zcar{
+	String color;
+	String geartype;
+	int door;
+	
+	Zcar() {  // 기본설정
+		  this.color = "red";
+		  this.geartype = "auto";
+		  this.door = 2;
+		  System.out.println("default constructor");
+	}
+	
+	Zcar(String color , String geartype , int door){
+			 this.color = color;
+			 this.geartype = geartype;
+			 this.door = door;
+		  System.out.println("overloading constructor");
+	}
+	
+	void print() {
+		 System.out.println(this.color + " / " + this.geartype + " / " + this.door);
+	}
+}
+
+
+public class Ex20_this {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

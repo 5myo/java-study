@@ -1,0 +1,22 @@
+class Human2{
+	String name;
+	int age;
+}
+
+class Test{
+	  Human2 add(Human2  h) {
+		  return null;
+	  }
+	  
+	  Human2 add(Human2 h , Human2 h2) {
+		  return null;
+	  }
+}
+public class Ex15_Method_Overloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

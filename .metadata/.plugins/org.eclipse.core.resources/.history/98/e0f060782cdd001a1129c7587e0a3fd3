@@ -1,0 +1,10 @@
+import kr.or.bit.AirPlane;
+
+public class Ex07_Static_AirPlane {
+
+	public static void main(String[] args) {
+		 AirPlane air  = new AirPlane();
+	
+	}
+
+}

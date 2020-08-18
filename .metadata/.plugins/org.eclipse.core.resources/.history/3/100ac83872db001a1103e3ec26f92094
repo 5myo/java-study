@@ -1,0 +1,26 @@
+import kr.or.bit.Person;
+
+public class Ex01_Ref_Type {
+	public static void main(String[] args) {
+		
+		//값타입  (8가지)
+		//참조타입 (Class , Array ....)
+		
+		Person p2; //선언  stack  이라는 영역에 공간만 확보 (공간의 크기 : 4byte)
+		p2 = new Person(); // p2 라는 변수에 Person  객체의 주소가 할당
+		System.out.println(p2);
+		
+		
+		
+		Person person = new Person();
+			person.name = "홍길동";
+			person.age = 100;
+			person.power = true;
+		    person.personPrint();
+		    
+	    Person  p  = new Person(); 	    
+	    p.personPrint();
+
+	}
+
+}

@@ -1,0 +1,33 @@
+
+public class Ex10_Statement {
+
+	public static void main(String[] args) {
+		 //반복문 (while , do ~ while)
+		int i = 10;
+		while( i >= 10) {
+			//System.out.println("i : " + i);
+			 i--; //반드시 증가감 논리 필요하다 
+			 System.out.println("i : " + i);
+		}
+
+		//while 1~100까지의 합
+		int sum=0;
+		int j = 1;
+		while(j <= 100) {
+			
+			// j++;  //sum : 5150
+			 sum+=j; //sum = sum + j
+			 j++;
+		}
+		System.out.println("sum : " + sum);
+	}
+
+}
+
+
+
+
+
+
+
+

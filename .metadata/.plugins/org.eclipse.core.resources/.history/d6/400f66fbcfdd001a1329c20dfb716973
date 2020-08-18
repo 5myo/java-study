@@ -1,0 +1,35 @@
+/*
+this
+1. 객체 자신을 가르키는 this (앞으로 생성될 주소를 담을 곳이라고 가정)
+2. this 객체자신 (생성자 호출) >> 원칙 : 여러개의 생성자 호출
+*/
+class Test{
+	int i;
+	int j;
+	
+	Test(){  //default 
+		
+	}
+	
+	Test(int k , int y){
+		  i = k;
+		  j = y;
+	}
+}
+
+public class Ex19_this {
+
+	public static void main(String[] args) {
+		  Test t = new Test(10,20);
+		  System.out.println(t.i  + " ," + t.j);
+		  
+
+	}
+
+}
+
+
+
+
+
+

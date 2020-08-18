@@ -1,0 +1,13 @@
+import kr.or.bit.NoteBook;
+
+public class Ex03_MethodCall {
+
+	public static void main(String[] args) {
+		NoteBook notebook = new NoteBook();
+	    notebook.setYear(-1000);
+	   int result  = notebook.getYear();
+	   System.out.println("result : " + result);
+
+	}
+
+}

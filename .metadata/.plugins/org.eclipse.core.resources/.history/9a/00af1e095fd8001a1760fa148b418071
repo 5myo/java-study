@@ -1,0 +1,20 @@
+
+public class Ex07_Printf_format {
+	public static void main(String[] args) {
+		//System.out.println()
+		//c# : Console.WriteLine()
+		System.out.println(); //줄바꿈
+		System.out.print("A");
+		System.out.print("B");
+		System.out.println("C"); 
+		System.out.println("D"); 
+		
+		int num = 100;
+		System.out.println(num);
+		System.out.println("num 값은 " + num + " 입니다");
+		// 형식   format
+		System.out.printf("num 값은 %d 입니다",num);
+		
+	}
+
+}

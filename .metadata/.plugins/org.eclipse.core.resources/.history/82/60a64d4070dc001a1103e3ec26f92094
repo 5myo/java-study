@@ -1,0 +1,19 @@
+package kr.or.bit;
+
+public class point {
+	 private double x;
+	 private double y;
+	 
+	 public point() {}
+	 
+	 public point(double x , double y) {
+		 this.x = x;
+		 this.y  =y;
+	 }
+	 
+     public double distance() {
+    	 Math.sqrt(a)
+    	 return 0.0;
+     }
+	 
+}
