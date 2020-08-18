@@ -31,5 +31,20 @@ public class Ex08_Array {
 			System.out.println();
 		}
 		
+		int[][] score3=new int[][] {
+			{11,12},
+			{13,14},
+			{15,16}
+		};
+		
+		//모님 퀴즈 커피
+		//개선된 for문을 사용해서 배열값을 출력하세요
+		
+		for(int[] row:score3) {
+			for(int col:row) {
+				System.out.println("값 : " + col);
+			}
+		}
+		
 }
 }
