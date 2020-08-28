@@ -1,0 +1,5 @@
+package kr.or.utils;
+
+public class Account {
+
+}
